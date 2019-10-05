@@ -1,0 +1,30 @@
+criar aplicação nodejs
+npm init -y
+
+Gerenciador de rotas e views
+npm i express
+
+Dependencia de desenvolvimento para reiniciar o servidor automaticamente
+npm i -D nodemon
+
+Rodar o servidor
+node index.js
+
+Rodar script do package.json
+npm run dev
+
+Dependencia de gereciamento de BD, ORM, encapsula a lógica de bd não relacional,
+podendo ser utilizado apenas javascript
+npm i mongoose
+
+conectar o mongodb caso tenha password
+mongoose.connect('mongodb://user@pass')
+
+Dá um require em todos os arquivos
+npm i require-dir
+
+Paginar resultados da pesquisa
+npm i mongoose-paginate
+
+Instalar o corsOrigin para não permitir puxar informações de outras aplicações
+npm i cors
